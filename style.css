@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+:root{
+    --mainColor : rgb(88, 96, 232);
+    --text-black: #3B3F5C;
+}
+
+/* Founder Screen */
+
+.big-container{
+width: 37.5%;
+margin: 250px auto;
+border-radius: 20px;
+}
+.founder, section{
+background: var(--mainColor);
+border-radius: 20px;
+margin-bottom: 10px;
+}
+ section.theme{
+    background: white;
+    }
+    .founder.theme{
+        background: white;
+        }
+    body.theme{
+        background: var(--mainColor);
+    }
+
+.founder-text{
+    padding: 30px;
+    color: white;
+}
+.founder-text.theme{
+    color: var(--text-black);
+}
+ h1{
+    margin-bottom: 1rem;
+}
+
+ p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.founder-text a{
+background: white;
+color: var(--mainColor);
+text-align: center;
+display: flex;
+justify-content: center;
+padding: 20px;
+border-radius: 5px;
+font-weight: 600;
+}
+.learn.theme{
+    background: var(--mainColor);
+    color: white;
+    }
+ .founder-container img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 2px;
+}
+section{
+    padding: 30px;
+}
+.khan img{
+    margin-bottom: 2rem;
+}
+.khan-text{
+    color: white;
+}
+.khan-text.theme{
+    color: var(--text-black);
+}
+.nahid{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #FFFFFF;
+   text-align: center;
+}
+.nahid.theme{
+    color: var(--text-black);
+ }
+ .follow.theme{
+    color: white;
+    background: var(--mainColor);
+    padding: 10px 60px;
+    border-radius: 5px;
+ }
+.nahid .rate{
+    margin-top: 1.5rem
+}
+.nahid img{
+    margin-bottom: 1.5rem;
+}
+.nahid h4{
+    margin-bottom: 1.5rem;
+}
+ .hr{
+    border-bottom: solid 0.5px white;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.hr.theme{
+    border-bottom: solid 0.5px var(--text-black);
+}
+.nahid-follow{
+    display: flex;
+    column-gap: 3rem;
+}
+.follow-item{
+ line-height: 5px;
+}
+.order-header{
+    display: flex;
+    justify-content: space-between;
+}
+.order{
+    color: white;
+}
+.order.theme{
+    color: var(--mainColor);
+}
+.order img{
+    width: 100%;
+}
+.order .group{
+    width: 70%;
+}
+.order-header .progress{
+    background: #E8E8FF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--mainColor);
+}
+.bartheme{
+    display: none;
+}
+.bartheme.theme{
+    display: block;
+}
+.bar.theme{
+    display: none;
+}
+.ux{
+display: flex;
+gap: 1rem;
+background: var(--mainColor);
+}
+.ux.theme{
+    background: white;
+}
+.ux-content{
+    color: white;
+}
+.ux-content.theme{
+    color: var(--text-black);
+}
+.title-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.figure{
+    background: white;
+    color: var(--mainColor);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 9%;
+    padding: 3px 12px;
+}
+.figure.theme{
+    background: var(--mainColor);
+    color: white;
+}
+
+.btn .white{
+    width: 20%;
+    border: 1px solid var(--mainColor);
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+.btn .blue{
+    width: 10%;
+    height: 30px;
+    background: var(--mainColor);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px white;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.big-container{
+    position: relative;
+}
+
+.pOrder{
+    color: white;
+}
+.pOrder.theme{
+    color: var(--text-black);
+}
+
+.span{
+    color: rgb(212, 212, 212);
+}
+.span.theme{
+    color: gray;
+}
+
+@media (max-width:970px) {
+    .big-container{
+        width: 100%;
+       margin: 0;
+        }
+        .founder-container img {
+           width: 99%;
+        }
+}
+@media (max-width:400px) {
+    .ux img{
+        width: 100px;
+        height: 100px;
+        margin-top: 4rem;
+    }
+    .figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+

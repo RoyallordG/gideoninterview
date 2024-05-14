@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="big-container">
+    <div class="btn">
+        <button class="white"></button>
+        <button class="blue"></button>
+    </div>
+    <div class="founder">
+        <div class="founder-container">
+            <img src="Rectangle 1.png" alt="">
+            <div class="founder-text">
+                <h1>Salman Khan</h1>
+                <span class="span">Founder and CEO of Khan Academy</span>
+                <p>Salman Amin Khan (born 11 October 1976), known as Sal Khan, is a Bangladeshi-American educator 
+                    and the founder of Khan Academy</p>
+                    <a href="" class="learn">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <section class="khan">
+        <img src="khan_academy-icon.svg" alt="">
+        <div class="khan-text">
+            <h1>Khan Academy</h1>
+            <span class="span">Education company</span>
+            <p>Learn for free about math, art, computer programming, economics,
+                 physics, chemistry, biology, medicine, finance, history, and more.</p>
+        </div>
+    </section>
+    <section class="nahid">
+        <img src="nahid photo.svg" alt="">
+        <h1>Nahid Hasan</h1>
+        <span class="span">UX/UI Designer</span>
+        <img src="rating.svg" alt="" class="rate">
+        <p>UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.</p>
+        <h4 class="follow">Follow</h4>
+        <div class="hr"></div>
+        <div class="nahid-follow">
+            <div class="follow-item">
+                <h4>5896</h4>
+                <span class="span">Post</span>
+            </div>
+            <div class="follow-item">
+                <h4>8952</h4>
+                <span class="span">Followers</span>
+            </div>
+            <div class="follow-item">
+                <h4>6545</h4>
+                <span class="span">Likes</span>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="order-header">
+            <span class="pOrder">Place Order</span>
+            <span class="progress">IN PROGRESS</span>
+        </div>
+        <img src="Group 1.svg" class="group" alt="">
+        <img src="Frame 25.svg" alt="" class="bar">
+        <img src="Frame 25 theme.svg" alt="" class="bartheme">
+    </section>
+    <section class="ux">
+        <img src="nahid photo.svg" alt="">
+        <div class="ux-content">
+            <h1>Nahid Hasan</h1>
+            <div class="title-rate">
+            <span class="span">UX/UI Designer</span>
+            <span class="figure">4.5</span>
+        </div>
+            <p>UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.</p>
+        </div>
+    </section>
+</div>
+    
+   <script>
+    let whitebtn = document.querySelector('.white')
+    let bluebtn = document.querySelector('.blue')
+    let body = document.querySelector('body')
+    let learn = document.querySelector('.learn')
+    let founderT = document.querySelector('.founder-text')
+    let khan = document.querySelector('.khan-text')
+    let nahid = document.querySelector('.nahid')
+    let hr = document.querySelector('.hr')
+    let order = document.querySelector('.order')
+    let progress = document.querySelector('.progress')
+    let uxContent = document.querySelector('.ux-content')
+    let figure = document.querySelector('.figure')
+    let founder = document.querySelector('.founder')
+    let section = document.querySelector('section')
+    let ux = document.querySelector('.ux')
+    let follow = document.querySelector('.follow')
+    let bar = document.querySelector('.bar')
+    let bartheme = document.querySelector('.bartheme')
+    let pOrder = document.querySelector('.pOrder')
+    let spans = document.querySelectorAll('.span').forEach(function(item){
+        whitebtn.addEventListener('click', function(){
+        item.classList.add('theme')
+    })
+        bluebtn.addEventListener('click', function(){
+        item.classList.remove('theme')
+    })
+    })
+   
+
+  
+    
+    whitebtn.addEventListener('click', function(){
+  body.classList.add('theme')
+  founderT.classList.add('theme')
+  learn.classList.add('theme')
+  khan.classList.add('theme')
+  nahid.classList.add('theme')
+  hr.classList.add('theme')
+  order.classList.add('theme')
+  progress.classList.add('theme')
+  uxContent.classList.add('theme')
+ figure.classList.add('theme')
+ founder.classList.add('theme')
+ section.classList.add('theme')
+ ux.classList.add('theme')
+ follow.classList.add('theme')
+ bar.classList.add('theme')
+ bartheme.classList.add('theme')
+ pOrder.classList.add('theme')
+
+    })
+
+     
+    bluebtn.addEventListener('click', function(){
+  body.classList.remove('theme')
+  founderT.classList.remove('theme')
+  learn.classList.remove('theme')
+  khan.classList.remove('theme')
+  nahid.classList.remove('theme')
+  hr.classList.remove('theme')
+  order.classList.remove('theme')
+  progress.classList.remove('theme')
+  uxContent.classList.remove('theme')
+ figure.classList.remove('theme')
+ founder.classList.remove('theme')
+ section.classList.remove('theme')
+ ux.classList.remove('theme')
+ follow.classList.remove('theme')
+ bar.classList.remove('theme')
+ bartheme.classList.remove('theme')
+ pOrder.classList.remove('theme')
+ item.classList.remove('theme')
+    })
+   </script> 
+</body>
+</html>
