@@ -244,6 +244,13 @@ background: var(--mainColor);
         align-items: center;
         justify-content: center;
     }
+   
+    .btn .white{
+        width: 30%;
+    }
+    .btn .blue{
+        width: 15%;
+    }
 }
 
 
